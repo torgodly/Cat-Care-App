@@ -169,18 +169,6 @@ class _HomeScreenState extends State<HomeScreen> {
                             child: Center(child: CircularProgressIndicator()));
                       }
                     })
-
-// ListView(
-//                           shrinkWrap: true,
-//                           children: catBreeds!
-//                               .map(
-//                                 (CatBreed catBreeds) => ListTile(
-//                                   title: Text(catBreeds.name),
-//                                   subtitle: Text(catBreeds.url),
-//                                 ),
-//                               )
-//                               .toList(),
-//                         );
               ],
             ))));
   }
